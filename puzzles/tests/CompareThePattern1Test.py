@@ -1,6 +1,6 @@
 import unittest
 
-from puzzles.CompareThePattern1 import CompareThePattern1
+from puzzles.puzzle.CompareThePattern1 import CompareThePattern1
 
 
 class CompareThePattern1Test(unittest.TestCase):
