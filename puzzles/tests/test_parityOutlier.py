@@ -29,4 +29,4 @@ class TestParityOutlier(TestCase):
 
         self.assertEqual(-102, parity_outlier.find(numbers_to_find))
 
-#     Add exception example
+#    TODO Add exception example
