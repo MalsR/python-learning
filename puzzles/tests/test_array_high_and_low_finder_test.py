@@ -1,6 +1,6 @@
 import unittest
 
-from puzzles.puzzle.ArrayHighAndLowFinder import ArrayHighAndLowFinder
+from puzzles.random.array_high_and_low_finder import ArrayHighAndLowFinder
 
 
 class ArrayHighAndLowFinderTest(unittest.TestCase):

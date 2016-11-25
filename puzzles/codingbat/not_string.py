@@ -8,11 +8,11 @@
 
 class NotString:
 
-    def not_string(self, str):
+    def not_string(self, string_to_check):
         # include some tests for the fun of it, maybe check str where length is less than three
-        first_three_chars = str[:3]
+        first_three_chars = string_to_check[:3]
 
         if "not" == first_three_chars:
-            return str
+            return string_to_check
 
-        return "not " + str
+        return "not " + string_to_check

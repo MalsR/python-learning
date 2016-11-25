@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from puzzles.puzzle.ParityOutlier import ParityOutlier
+from puzzles.random.parity_outlier import ParityOutlier
 
 
 class TestParityOutlier(TestCase):

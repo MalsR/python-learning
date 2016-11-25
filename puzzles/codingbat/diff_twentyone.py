@@ -4,12 +4,11 @@
 # diff21(19) → 2
 # diff21(10) → 11
 # diff21(21) → 0
-import math
 
 
 class DiffTwentyOne:
 
-    def diff_twentyone(self, n):
+    def diff_twenty_one(self, n):
         if n > 21:
             return (n - 21) * 2
 

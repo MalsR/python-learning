@@ -7,6 +7,7 @@
 
 
 class MonkeyTrouble:
+
     def monkey_trouble(self, a_smile, b_smile):
         if a_smile and b_smile:
             return True
