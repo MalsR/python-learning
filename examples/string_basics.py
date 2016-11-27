@@ -14,3 +14,4 @@ print(slice_example[4:7])
 print(slice_example[:6])
 # prints - 'm going to be sliced!
 print(slice_example[1:])
+# Is the slice silent on out-of-bounds conditions?

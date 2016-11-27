@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from puzzles.codingbat.diff_twentyone import DiffTwentyOne
+from puzzles.codingbat.warmup_1.diff_twentyone import DiffTwentyOne
 
 
 class TestDiffTwentyOne(TestCase):

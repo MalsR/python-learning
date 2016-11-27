@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from puzzles.codingbat.missing_char import MissingChar
+from puzzles.codingbat.warmup_1.missing_char import MissingChar
 
 
 class TestMissingChar(TestCase):

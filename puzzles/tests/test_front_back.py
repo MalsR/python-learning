@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from puzzles.codingbat.front_back import FrontBack
+from puzzles.codingbat.warmup_1.front_back import FrontBack
 
 
 class TestFrontBack(TestCase):
