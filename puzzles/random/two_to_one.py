@@ -34,4 +34,5 @@ class TwoToOne:
         result_set.sort()
         for entry in result_set:
             result += entry
+
         return result
