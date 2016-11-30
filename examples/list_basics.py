@@ -29,3 +29,37 @@ print(list_of_numbers)
 del list_of_numbers[1]
 print(list_of_numbers)
 # You can also del + with slice
+
+# Dictionaries - similar to a list but more rather a set, the ':' assigns the key BA to British Airways
+plane_acronyms = {'BA': 'British Airways', 'UL': 'Sri Lankan Airlines', 'EK': 'Emirates'}
+print(plane_acronyms['UL'])
+print(plane_acronyms['EK'])
+print(plane_acronyms)
+# Adding a new value to dictionary
+plane_acronyms['SQ'] = 'Singapore Airlines'
+print(plane_acronyms)
+# Removing a value from dict using key
+del plane_acronyms['EK']
+print(plane_acronyms)
+# Checking to see if a value exist
+plane_ack_exist = plane_acronyms.get('UL')
+print(plane_ack_exist)
+# Query for key that does not exist - will return NONE (special python value - absence of a value)
+# None also evaluates to False in a conditional statement
+unknown_plane_ack = plane_acronyms.get('UNKNOWN')
+print(unknown_plane_ack)
+
+
+# Comparing equality with lists, have to be same items and same order
+list_one = [1, 2, 3, 4, 5]
+list_two = [1, 2, 3, 4, 5]
+list_three = [1, 3, 2, 4, 5]
+print(list_one == list_two)
+print(list_one == list_three)
+# Comparing dict only need to have same value
+dict_one = {1: 1, 2: 2, 3: 3}
+dict_two = {2: 2, 1: 1, 3: 3}
+print(dict_one == dict_two)
+# Do example of two dimensional array
+
+# Do example of having a two dimensional array in a dict
