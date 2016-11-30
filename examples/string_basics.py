@@ -15,3 +15,10 @@ print(slice_example[:6])
 # prints - 'm going to be sliced!
 print(slice_example[1:])
 # Is the slice silent on out-of-bounds conditions?
+# using slice with minus values? does it imply reduce from length of str?
+
+# iterating chars in string
+example_name = "James"
+for i in example_name:
+    print(i)
+
