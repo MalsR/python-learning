@@ -5,11 +5,11 @@ print(empty_list)
 number_list = [2, 3, 4, 5, 6]
 print(number_list)
 
-# check see if python list can have mutiple data types
+# check see if python list can have multiple data types
 list_with_diff_types = [2, "Hello", 34.9, 'C']
 print(list_with_diff_types)
 
-# lists are oredered with index position 0...
+# lists are ordered with index position 0...
 print(number_list[0])
 
 # slice a list to obtain a sub-list very similar to String slice
@@ -24,8 +24,10 @@ print(list_to_slice)
 # Removing elements from list
 list_of_numbers = [1, 2, 3, 4, 5]
 print(list_of_numbers)
+print("Removing 2 from list")
 list_of_numbers.remove(2)
 print(list_of_numbers)
+print("Removing element with index position 1 from list")
 del list_of_numbers[1]
 print(list_of_numbers)
 # You can also del + with slice
