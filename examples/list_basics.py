@@ -45,7 +45,7 @@ del plane_acronyms['EK']
 print(plane_acronyms)
 # Checking to see if a value exist
 plane_ack_exist = plane_acronyms.get('UL')
-print(plane_ack_exist)
+print("UL exists", plane_ack_exist)
 # Query for key that does not exist - will return NONE (special python value - absence of a value)
 # None also evaluates to False in a conditional statement
 unknown_plane_ack = plane_acronyms.get('UNKNOWN')
@@ -62,6 +62,25 @@ print(list_one == list_three)
 dict_one = {1: 1, 2: 2, 3: 3}
 dict_two = {2: 2, 1: 1, 3: 3}
 print(dict_one == dict_two)
-# Do example of two dimensional array
 
-# Do example of having a two dimensional array in a dict
+# Example of two dimensional array
+parent_list = [["747", "787", "737", "777"],
+               ["A320", "A330", "A340", "A380"],
+               ["MD-11", "DC1030", "LR1101-TriStar"]]
+print(parent_list)
+
+# Example of having a two dimensional array in a dict
+air_craft_dic = {"Boeing": ["747", "787", "737", "777"],
+                 "Airbus": ["A320", "A330", "A340", "A380"],
+                 "McDonnell Douglas": ["MD-11", "DC1030", "LR1101-TriStar"]}
+print("Aircraft dictionary", air_craft_dic)
+
+# Example of two dimensional dic
+multi_dim_dic = {"Boeing": {"747": "Mega Top", "777": "My Favourite"},
+                 "Airbus": {"A380": "Double Decker", "A320": "Twin Engine short haul", "A350": "Next Gen med-long haul"}
+                 }
+# printing certain elements from multi dimensional dic, e.g. print value of key 777
+print("Print value of \"Boeing\" and \"777\" is =", multi_dim_dic["Boeing"]["777"])
+print("Get value of A320 from Airbus dic", multi_dim_dic.get("Airbus").get("A320"))
+print("Prints python special value NONE for querying key that does not exist", multi_dim_dic.get("Airbus").get("A333"))
+
