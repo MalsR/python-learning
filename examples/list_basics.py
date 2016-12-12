@@ -51,6 +51,15 @@ print("UL exists", plane_ack_exist)
 unknown_plane_ack = plane_acronyms.get('UNKNOWN')
 print(unknown_plane_ack)
 
+# iterating a dictionary by default only prints the keys
+price_dict = {'Americano': 0.50, 'English Breakfast': 0.75, 'Latte': 1.00}
+for item in price_dict:
+    print(item)
+# print key and values in dictionary
+for key, value in price_dict.items():
+    print(key, '=', format(value, '.2f'), sep='')
+print("Print list of keys in dict", price_dict.keys())
+print("Print all values in dict", price_dict.values())
 
 # Comparing equality with lists, have to be same items and same order
 list_one = [1, 2, 3, 4, 5]
