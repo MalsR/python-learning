@@ -23,3 +23,9 @@ for menu_item in menu_list:
 
 print(menu_items)
 
+# handling file not found exception
+try:
+    file_does_not_exist = open("file_not_found.txt", 'r')
+except FileNotFoundError as error:
+    print("File not found folks", error)
+
