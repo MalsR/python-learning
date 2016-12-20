@@ -5,6 +5,14 @@ import random
 def validate_in_range(user_input):
     if user_input > 10:
         print("Please enter a number less than ten")
+    return
+
+
+def parse_user_input(user_input):
+    try:
+        return int(user_input)
+    except ValueError as error:
+        print("Please enter a number, you've entered ", error)
 
 
 def main():
@@ -17,7 +25,9 @@ def main():
         if user_tries == 3:
             break
 
-        user_input = int(user_input)
+        user_input = parse_user_input(user_input)
+        # update logic to not count the turn on validation failure
+        validate_in_range(user_input)
         if user_input != python_guessed:
             user_tries += 1
             user_input = input("Try again please: ")
