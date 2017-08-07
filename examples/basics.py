@@ -2,7 +2,7 @@
 normal_division = 15 / 2
 print(normal_division)
 
-# floor division or integer division
+# integer division
 integer_division = 15 // 2
 print(integer_division)
 
